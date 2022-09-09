@@ -15,8 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-### Resume
-![Resume](resume/resume_preview.png)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)  
+
+![Profile views](https://gpvc.arturio.dev/wattob)  
 
 ### Connect with me:
 
@@ -28,6 +29,7 @@ Here are some ideas to get you started:
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='70'>](https://instagram.com/benjamindwatto/)
 
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)  
 
-![Profile views](https://gpvc.arturio.dev/wattob)  
+
+### Check out my Resume!
+![Resume](resume/resume_preview.png)
