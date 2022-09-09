@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-### Preview
+### Resume
 ![Resume](./resume/resume_preview.png)
 
 ### Connect with me:
