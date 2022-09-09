@@ -15,6 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+### Preview
+![Resume](./resume/resume_preview.png)
+
 ### Connect with me:
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='70'>](https://linkedin.com/in/benjaminwatto/)
