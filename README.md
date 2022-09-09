@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ### Resume
-![Resume](./resume/resume_preview.png)
+![Resume](resume/resume_preview.png)
 
 ### Connect with me:
 
