@@ -11,6 +11,11 @@ I'm Benjamin, a passionate coder with a keen interest in gaming. I believe in wr
 - 💻 I'm proficient in JavaScript, TypeScript, Java, & Python. My go-to languages are Python and JavaScript.
 - 🚀 I enjoy working with Angular for building robust web applications and Cypress for end-to-end testing. Currently diving deep into AWS DynamoDB for efficient NoSQL data storage and AWS Lambda for serverless computing.
 
+<!-- ## Projects
+Here are some projects I'm proud of:
+1. [Project 1](link-to-project-1): Brief description of the project.
+2. [Project 2](link-to-project-2): Brief description of the project. -->
+
 ## Connect with me
 - [LinkedIn](https://linkedin.com/in/benjaminwatto/) [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="25"/>](https://linkedin.com/in/benjaminwatto/)
 - [GitHub](https://github.com/wattob) [<img src="https://img.icons8.com/ios/50/000000/github.png" width="25"/>](https://github.com/wattob)
@@ -27,3 +32,6 @@ I'm Benjamin, a passionate coder with a keen interest in gaming. I believe in wr
 
 ## GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)
+
+<!-- ## Resume
+ -->
