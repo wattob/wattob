@@ -1,33 +1,36 @@
-### Hi there 👋 ![GitHub followers](https://img.shields.io/github/followers/wattob?label=Follow%20Me%21&style=social)
+# Hi there 👋 ![GitHub followers](https://img.shields.io/github/followers/wattob?label=Follow%20Me%21&style=social)
 
-<!--
-**wattob/wattob** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Introduction
+I'm Benjamin, a passionate coder with a keen interest in gaming. I believe in [mention your coding philosophy or a unique approach], which reflects in the solutions I craft.
 
-Here are some ideas to get you started:
+## Current Activities
+- 🔭 I’m currently working on [mention your current project or activity]. It's exciting because [briefly explain why it's interesting or challenging].
+- 🌱 I’m currently learning [mention what you are currently learning]. Always eager to expand my knowledge and explore new technologies.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills and Technologies
+- 💻 I'm proficient in JavaScript, TypeScript, Java, & Python. My go-to language is Python or JavaScript.
+- 🚀 I enjoy working with [Your favorite frameworks or technologies]. Currently diving deep into [any specific technology or framework you're exploring].
 
-### Resume
-![Resume](resume/resume_preview.png)
+<!-- ## Projects
+Here are some projects I'm proud of:
+1. [Project 1](link-to-project-1): Brief description of the project.
+2. [Project 2](link-to-project-2): Brief description of the project. -->
 
-### Connect with me:
+## Connect with me
+- [LinkedIn](https://linkedin.com/in/benjaminwatto/)
+- [GitHub](https://github.com/wattob)
+- [Stack Overflow](https://stackoverflow.com/users/10458181/ben)
+- [Facebook](https://facebook.com/wattobenjamin)
+- [Twitter](https://twitter.com/wattobd)
+- [Instagram](https://instagram.com/benjamindwatto/)
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='70'>](https://linkedin.com/in/benjaminwatto/)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='70'>](https://github.com/wattob)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='70'>](https://stackoverflow.com/users/10458181/ben)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='70'>](https://facebook.com/wattobenjamin)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='70'>](https://twitter.com/wattobd)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='70'>](https://instagram.com/benjamindwatto/)
+## Contact
+📫 How to reach me: wattobd@gmail.com
 
+## Fun Fact
+⚡ Fun fact: [Share an interesting tidbit about yourself or a hobby outside coding].
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)  
+## GitHub Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)
 
-![Profile views](https://gpvc.arturio.dev/wattob)  
+<!-- ## Resume -->
