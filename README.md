@@ -28,7 +28,7 @@ Here are some projects I'm proud of:
 📫 How to reach me: wattobd@gmail.com
 
 ## Fun Fact
-⚡ Fun fact: I'm a dog lover, and I have a golden retriever named Bella. She's my coding companion, always sitting under my desk during coding sessions.
+⚡ Fun fact: I'm a dog lover; I have a golden retriever named Bella and an Australian shepherd named Bentley. Bella is my coding companion, always sitting under my desk during coding sessions, while Bentley constantly brings me toys to boost morale.
 
 ## GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)
