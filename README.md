@@ -16,7 +16,6 @@ Here are some projects I'm proud of:
 1. [Project 1](link-to-project-1): Brief description of the project.
 2. [Project 2](link-to-project-2): Brief description of the project. -->
 
-
 ## Connect with me
 - [LinkedIn](https://linkedin.com/in/benjaminwatto/) [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="25"/>](https://linkedin.com/in/benjaminwatto/)
 - [GitHub](https://github.com/wattob) [<img src="https://img.icons8.com/ios/50/000000/github.png" width="25"/>](https://github.com/wattob)
@@ -30,5 +29,8 @@ Here are some projects I'm proud of:
 
 ## Fun Fact
 ⚡ Fun fact: I'm a dog lover, and I have a golden retriever named Bella. She's my coding companion, always sitting under my desk during coding sessions.
+
+## GitHub Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)
 
 ![Resume](resume/resume_preview.png)
