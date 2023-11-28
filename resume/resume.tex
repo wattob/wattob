@@ -1,0 +1,171 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{.8in}
+\addtolength{\topmargin}{-.4in}
+\addtolength{\textheight}{.8in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{2pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{1.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%-----------HEADER-----------
+\begin{flushleft}
+  \textbf{\Huge \scshape Benjamin D. Watto } \\ \vspace{5pt}
+  \small Software Engineer \\
+  \small wattobd@gmail.com
+\end{flushleft}
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Inovalon}{August 2022 -- Present}
+{Software Engineer}{Remote}
+\resumeItemListStart
+\resumeItem{Leveraged Azure DevOps to design and implement CI/CD pipelines, incorporating multiple stages for seamless code integration and deployment.}
+\resumeItem{Developed comprehensive end-to-end (E2E) test patterns for a web portal in Cypress, encompassing both happy path and edge case scenarios, utilizing metadata-driven techniques to ensure thorough testing and validation of the application's functionality and reliability.}
+\resumeItem{Transformed existing Cypress test patterns into Angular schematics that utilizes metadata, resulting in a 40\% reduction in test creation time and improving overall development efficiency.}
+\resumeItem{Developed an object-oriented pattern for CRUD portal screens in Angular and TypeScript, leveraging metadata-driven techniques to enhance code modularity, reusability, and maintainability, resulting in streamlined development and consistent user experience.}
+\resumeItem{Played a key role as a core member in the design and development of testable design patterns and Angular components for a reusable component library, contributing to consistent and maintainable UI/UX across multiple core product portals, fostering efficient reusability and streamlining development processes.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Computer Enterprises, Inc. (CEI)}{January 2021 -- August 2022}
+{Software Developer }{Pittsburgh, PA}
+\resumeItemListStart
+\resumeItem{Software Engineer on a multinational team developing a data cross-reference lookup service using TypeScript, Node.js, and PostgreSQL. This service was designed to be leveraged by other teams for integration projects, streamlining data accessibility and enhancing overall system interoperability.}
+\resumeItem{Successfully delivered software development solutions for a leading retail company, specializing in developing and deploying APIs on AWS to facilitate seamless data insertion across multiple databases from three or more inventory snapshots, resulting in over 600,000 records processed daily utilizing TypeScript, Node.js, and Docker.}
+\resumeItem{Collaborated with a healthcare company as a software developer consultant, contributing to a team effort in developing a robust framework utilizing Java, MyBatis, and HSQLDB to automate testing of BDM scripts against a complex database structure comprising 35 tables.}
+\resumeItemListEnd
+\vspace{-12.5pt}
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Allegheny College}{August 2016 -- May 2020}
+{Bachelor of Science in Computer Science}{Meadville, PA}
+\resumeSubHeadingListEnd
+
+
+%-----------ACADEMIC PROJECTS-----------
+% \section{Academic Projects}
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {\textbf{MapReduce Automator}}{}
+% {}{}\vspace{-15pt}
+% \resumeItemListStart
+% \resumeItem{Researched the effects of various machine types on Hadoop data processing}
+% \resumeItem{Wrote a 30 page thesis to report my findings}
+% \resumeItem{Findings were presented and defended in front of a panel}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages}{: JavaScript, TypeScript, Java, Python, SQL, HTML, and CSS} \\
+\textbf{Frameworks \& Libraries}{: Angular, Node.js, Express} \\
+\textbf{Software \& Tools}{: Git, Linux, Postman, AWS, Docker, Adobe XD, JIRA, and Azure DevOps} \\
+\textbf{Industry Skills}{:  Agile, Scrum Framework, Teamwork, Communication, and Leadership} \\
+}}
+\end{itemize}
+
+
+%-------------------------------------------
+\end{document}
