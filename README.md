@@ -33,4 +33,5 @@ Here are some projects I'm proud of:
 ## GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=wattob&show_icons=true)
 
+## Check out my resume!
 ![Resume](resume/resume_preview.png)
