@@ -1,4 +1,4 @@
-\documentclass[letterpaper,12pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -33,11 +33,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.4in}
-\addtolength{\evensidemargin}{-0.4in}
-\addtolength{\textwidth}{.8in}
-\addtolength{\topmargin}{-.4in}
-\addtolength{\textheight}{.8in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 
@@ -47,8 +47,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{2pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{2pt}]
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -57,21 +57,22 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-1pt}}
+    {#1 \vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{2pt}\item
+  \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
+% Role line under a company (for promotions at the same company)
 \newcommand{\resumeSubSubheading}[2]{
     \item
-    \begin{tabular*}{1.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -90,7 +91,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,72 +101,86 @@
 
 %-----------HEADER-----------
 \begin{flushleft}
-  \textbf{\Huge \scshape Benjamin D. Watto } \\ \vspace{5pt}
-  \small Software Engineer \\
-  \small wattobd@gmail.com
+  \textbf{\Huge \scshape Benjamin Watto} \\ \vspace{2pt}
+  \small Senior Software Engineer \\
+  \small \href{mailto:wattobd@gmail.com}{wattobd@gmail.com} $|$
+  \href{https://www.linkedin.com/in/benjaminwatto}{linkedin.com/in/benjaminwatto} $|$
+  \href{https://github.com/wattob}{github.com/wattob}
 \end{flushleft}
+\vspace{-6pt}
 
 
 %-----------WORK EXPERIENCE-----------
 \section{Work Experience}
 \resumeSubHeadingListStart
+
 \resumeSubheading
 {Inovalon}{August 2022 -- Present}
-{Software Engineer}{Remote}
-\resumeItemListStart
-\resumeItem{Leveraged Azure DevOps to design and implement CI/CD pipelines, incorporating multiple stages for seamless code integration and deployment.}
-\resumeItem{Developed comprehensive end-to-end (E2E) test patterns for a web portal in Cypress, encompassing both happy path and edge case scenarios, utilizing metadata-driven techniques to ensure thorough testing and validation of the application's functionality and reliability.}
-\resumeItem{Transformed existing Cypress test patterns into Angular schematics that utilizes metadata, resulting in a 40\% reduction in test creation time and improving overall development efficiency.}
-\resumeItem{Developed an object-oriented pattern for CRUD portal screens in Angular and TypeScript, leveraging metadata-driven techniques to enhance code modularity, reusability, and maintainability, resulting in streamlined development and consistent user experience.}
-\resumeItem{Played a key role as a core member in the design and development of testable design patterns and Angular components for a reusable component library, contributing to consistent and maintainable UI/UX across multiple core product portals, fostering efficient reusability and streamlining development processes.}
-\resumeItemListEnd
+{Healthcare technology}{Remote}
+
+  \resumeSubSubheading
+  {Senior Software Engineer}{March 2025 -- Present}
+  \resumeItemListStart
+    \resumeItem{Led development of the company-wide \textbf{application launcher}, the entry point every customer uses to reach Inovalon's products.}
+    \resumeItem{Upgraded \textbf{Angular} applications from v14 to v21 across three major upgrades (14 $\rightarrow$ 16 $\rightarrow$ 19 $\rightarrow$ 21).}
+    \resumeItem{Standardized shared Angular patterns and components across the company's product portals.}
+  \resumeItemListEnd
+
+  \resumeSubSubheading
+  {Software Engineer}{March 2023 -- March 2025}
+  \resumeItemListStart
+    \resumeItem{Turned \textbf{Cypress} test patterns into metadata-driven \textbf{Angular schematics}, cutting test creation time by 40\%.}
+    \resumeItem{Led the migration from Okta to \textbf{Azure AD B2C} to reduce costs, including custom extensions to the authentication library.}
+    \resumeItem{Built multi-stage CI/CD pipelines in \textbf{Azure DevOps} for build, test, and deployment.}
+    \resumeItem{Mentored and onboarded new engineers on the team.}
+  \resumeItemListEnd
+
+  \resumeSubSubheading
+  {Associate Software Engineer}{August 2022 -- March 2023}
+  \resumeItemListStart
+    \resumeItem{Built a metadata-driven pattern in \textbf{Angular} and \textbf{TypeScript} that generates CRUD screens from configuration.}
+    \resumeItem{Co-built a shared component library from \textbf{Figma} designs, used in several product portals.}
+  \resumeItemListEnd
 
 \resumeSubheading
 {Computer Enterprises, Inc. (CEI)}{January 2021 -- August 2022}
-{Software Developer }{Pittsburgh, PA}
+{Software Developer}{Pittsburgh, PA}
 \resumeItemListStart
-\resumeItem{Software Engineer on a multinational team developing a data cross-reference lookup service using TypeScript, Node.js, and PostgreSQL. This service was designed to be leveraged by other teams for integration projects, streamlining data accessibility and enhancing overall system interoperability.}
-\resumeItem{Successfully delivered software development solutions for a leading retail company, specializing in developing and deploying APIs on AWS to facilitate seamless data insertion across multiple databases from three or more inventory snapshots, resulting in over 600,000 records processed daily utilizing TypeScript, Node.js, and Docker.}
-\resumeItem{Collaborated with a healthcare company as a software developer consultant, contributing to a team effort in developing a robust framework utilizing Java, MyBatis, and HSQLDB to automate testing of BDM scripts against a complex database structure comprising 35 tables.}
+\resumeItem{Built a SKU data ingestion pipeline in \textbf{TypeScript} and \textbf{Node.js} that processed files from several sources into \textbf{PostgreSQL}, feeding another team's UI that workers used each morning.}
+\resumeItem{Ran the services as \textbf{Docker} microservices on \textbf{AWS}, processing over 600,000 records daily.}
+\resumeItem{Wrote automated database tests in \textbf{Java} (MyBatis, HSQLDB) for healthcare data.}
 \resumeItemListEnd
-\vspace{-12.5pt}
+
 \resumeSubHeadingListEnd
 
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://github.com/wattob/switch-microcontroller}{switch-microcontroller}} $|$ \emph{Python, C, Arduino}}{}
+\resumeItemListStart
+\resumeItem{Extended an Arduino-based Nintendo Switch controller with \textbf{Python} scripts that shiny-hunt in Pok\'emon Brilliant Diamond / Shining Pearl unattended and send an email alert when one appears.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Allegheny College}{August 2016 -- May 2020}
+{Allegheny College}{May 2020}
 {Bachelor of Science in Computer Science}{Meadville, PA}
 \resumeSubHeadingListEnd
-
-
-%-----------ACADEMIC PROJECTS-----------
-% \section{Academic Projects}
-% \resumeSubHeadingListStart
-% \resumeSubheading
-% {\textbf{MapReduce Automator}}{}
-% {}{}\vspace{-15pt}
-% \resumeItemListStart
-% \resumeItem{Researched the effects of various machine types on Hadoop data processing}
-% \resumeItem{Wrote a 30 page thesis to report my findings}
-% \resumeItem{Findings were presented and defended in front of a panel}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
+\vspace{4pt}
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Languages}{: JavaScript, TypeScript, Java, Python, SQL, HTML, and CSS} \\
-\textbf{Frameworks \& Libraries}{: Angular, Node.js, Express} \\
-\textbf{Software \& Tools}{: Git, Linux, Postman, AWS, Docker, Adobe XD, JIRA, and Azure DevOps} \\
-\textbf{Industry Skills}{:  Agile, Scrum Framework, Teamwork, Communication, and Leadership} \\
+\textbf{Languages}{: TypeScript, JavaScript, Python, Java, SQL, HTML, CSS} \\
+\textbf{Frameworks \& Libraries}{: Angular, Node.js, Express, PrimeNG} \\
+\textbf{Cloud \& Identity}{: AWS (Lambda, DynamoDB), Azure AD B2C, Docker} \\
+\textbf{Testing \& Tooling}{: Cypress, Angular schematics, Azure DevOps CI/CD, Postman, Git, Figma} \\
 }}
 \end{itemize}
 
-
-%-------------------------------------------
 \end{document}
